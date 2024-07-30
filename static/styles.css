@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #326164;
+}
+
+nav {
+    background-color: #0474ed;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #91f0fa;
+    color: #0474ed;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-member {
+    background-color: #a2b458;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px;
+    color: white;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #326164;
+}
+
+form {
+    background-color: #a6cabd;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input[type="file"] {
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #08a29e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #326164;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+img {
+    margin-top: 1rem;
+    max-width: 100%;
+}

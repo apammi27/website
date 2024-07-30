@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Imaging Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('pneumonia') }}">Pneumonia Detection</a></li>
+            <li><a href="{{ url_for('brain_tumor') }}">Brain Tumor Detection</a></li>
+            <li><a href="{{ url_for('lung_cancer') }}">Lung Cancer Detection</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to Medical Imaging Analysis</h1>
+        <p>This website offers AI-based detection for pneumonia, brain tumors, and lung cancer.</p>
+    </header>
+    <section>
+        <h2>Meet the Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/team_member1.jpg') }}" alt="Team Member 1">
+                <h3>Team Member 1</h3>
+            </div>
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/team_member2.jpg') }}" alt="Team Member 2">
+                <h3>Team Member 2</h3>
+            </div>
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/team_member3.jpg') }}" alt="Team Member 3">
+                <h3>Team Member 3</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
